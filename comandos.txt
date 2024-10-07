@@ -1,0 +1,11 @@
+docker build -t conteiner-hello:latest .
+
+docker tag conteiner-hello:latest gucardos/conteiner-hello:latest
+
+docker images
+
+docker login
+
+docker push gucardos/conteiner-hello:latest
+
+docker run gucardos/conteiner-hello
